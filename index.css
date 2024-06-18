@@ -1,0 +1,54 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(174, 223, 206);
+}
+
+.form-box{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    width: 50%;
+    padding: 5rem ;
+}
+
+.form-box>div{
+    display: flex;
+    gap: 2rem;
+    width: 100%;
+}
+.form-box>div>div{
+    width: 100%;
+}
+input, textarea{
+    width: 100%;
+    padding: 5px 1rem;
+    margin: .3rem 0;
+}
+
+
+
+
+label{
+    display: block;
+}
+
+button{
+    padding: .5rem 0;
+    margin: 1rem 0 0;
+    background-color: rgb(35, 122, 93);
+    color:white;
+    outline: none;
+    border: none;
+    font-size: 18px;
+    border-radius: 5px;
+}
